@@ -1,2 +1,1 @@
-# goit-markup-hw-02
-DZ 2
+# DZ-number-1
