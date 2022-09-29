@@ -1,7 +1,15 @@
 body {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   color: #212121;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
 }
