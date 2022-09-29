@@ -1,15 +1,259 @@
+:root {
+  --blue: #2196f3;
+  --dark-bg: #2f303a;
+  --text-color-white: #ffffff;
+  --text-color-gray: #757575;
+  --text-color-dark: #000000;
+}
+
+/* 
+background: #212121;
+background: #FFFFFF;
+background: #757575;
+background: #2196F3;
+background: #000000;
+background: #2F303A;
+background: #FFFFFF99;
+background: #ECECEC;
+background: #F5F4FA;
+ */
+
 body {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
+  font-family: 'Roboto', 'Raleway', 'Sans-Serif';
   color: #212121;
 }
 
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--blue);
+}
+
+.link {
+  text-decoration: none;
 }
 
 .list {
   list-style: none;
+}
+/* -------------------------------------------- */
+
+/* logo */
+.logo-link {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--blue);
+}
+
+.logo-dark {
+  color: var(--text-color-dark);
+}
+
+.logo-light {
+  color: var(--text-color-white);
+}
+
+/* header section */
+.header {
+}
+
+.header-nav {
+}
+
+.header-nav-list {
+}
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.header-contact-list {
+}
+
+.header-contact-item {
+}
+
+.header-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* hero section */
+.hero {
+  background-color: var(--dark-bg);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  text-transform: uppercase;
+  color: var(--text-color-white);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+  color: var(--text-color-white);
+  background-color: var(--blue);
+  cursor: pointer;
+}
+
+/* section features */
+.features {
+}
+
+.features-title {
+}
+
+.features-list {
+}
+
+.features-item {
+}
+
+.features-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  color: var(--text-color-gray);
+}
+
+/* work section */
+.work {
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.work-list {
+}
+
+.work-item {
+}
+
+/* team section */
+.team {
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.team-list {
+}
+
+.team-item {
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--text-color-gray);
+}
+
+/* footer section */
+.footer {
+  background-color: var(--dark-bg);
+}
+
+.footer-contact-list {
+}
+
+.footer-contact-item {
+}
+
+.footer-contact-link {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.gmap-item {
+  color: var(--text-color-white);
+}
+
+/* filter section on portfolio page */
+.filter {
+}
+
+.filter-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.filter-list {
+}
+
+.filter-item {
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--text-color-white);
+  background-color: var(--blue);
+}
+
+.filter-btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+/* project example section on portfolio */
+.project {
+}
+
+.project-title {
+}
+
+.project-list {
+}
+
+.project-item {
+}
+
+.project-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+  color: var(--text-color-gray);
 }
